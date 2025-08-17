@@ -3,14 +3,14 @@
 # What the project is
 <img width="400" height="300" alt="download (3)" src="https://github.com/user-attachments/assets/264e20e9-ca69-461b-9a7c-401e32e07185" />
 
-A small prototype for **molecular property prediction with a Graph Neural Network (GNN)**—specifically a **SchNet** model—trained on the **QM9** dataset. The presence of a SchNet training script and a saved checkpoint strongly suggests it predicts a scalar molecular property (commonly the dipole moment μ in QM9) and visualizes predicted-vs-true values in a “parity plot.” ([GitHub][1])
+A small prototype for **molecular property prediction with a Graph Neural Network (GNN)**—specifically a **SchNet** model—trained on the **QM9** dataset. The presence of a SchNet training script and a saved checkpoint strongly suggests it predicts a scalar molecular property (commonly the dipole moment μ in QM9) and visualizes predicted-vs-true values in a “parity plot.” 
 
 # What’s in the repository
 
 * **`train_qm9_schnet.py`** – training script for a SchNet model on the QM9 dataset (SchNet is a continuous-filter convolutional GNN for molecules). ([GitHub][1])
-* **`schnet_qm9.pt`** – a saved model checkpoint you can load for testing/inference. ([GitHub][1])
-* **`Testing.ipynb`** – a notebook likely used to load the checkpoint, run inference on a test split, and draw the parity plot. ([GitHub][1])
-* **`README.md`** – currently minimal (no detailed instructions yet). ([GitHub][1])
+* **`schnet_qm9.pt`** – a saved model checkpoint you can load for testing/inference. 
+* **`Testing.ipynb`** – a notebook likely used to load the checkpoint, run inference on a test split, and draw the parity plot. 
+* **`README.md`** – currently minimal (no detailed instructions yet).
 
 # How it (likely) works end-to-end
 
@@ -20,7 +20,7 @@ A small prototype for **molecular property prediction with a Graph Neural Networ
 4. **Save**: Writes weights to `schnet_qm9.pt`.
 5. **Evaluate/Plot**: Notebook computes predictions on held-out molecules and makes a parity plot.
 
-(Those steps follow standard SchNet-on-QM9 workflows and match the filenames/checkpoint present in your repo. ([GitHub][1]))
+(Those steps follow standard SchNet-on-QM9 workflows and match the filenames/checkpoint present in your repo. 
 
 # How to run it (suggested)
 
