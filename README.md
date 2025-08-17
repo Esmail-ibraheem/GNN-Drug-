@@ -1,16 +1,7 @@
 # GNN-Drug-
 
-  <img width="490" height="290" alt="download (2)" src="https://github.com/user-attachments/assets/45a03208-64ff-4a0a-a39d-5bc8714f83b6" />
-
-
-<img width="467" height="470" alt="download" src="https://github.com/user-attachments/assets/82de7fea-fab2-4c76-a9a0-5f28ad8a9214" />
-
-<img width="489" height="490" alt="download (1)" src="https://github.com/user-attachments/assets/17585b71-0db2-44a8-96bd-052d36492e77" />
-
-
-Here’s a quick tour of what’s in that repo and what it’s trying to do.
-
 # What the project is
+<img width="400" height="300" alt="download (3)" src="https://github.com/user-attachments/assets/264e20e9-ca69-461b-9a7c-401e32e07185" />
 
 A small prototype for **molecular property prediction with a Graph Neural Network (GNN)**—specifically a **SchNet** model—trained on the **QM9** dataset. The presence of a SchNet training script and a saved checkpoint strongly suggests it predicts a scalar molecular property (commonly the dipole moment μ in QM9) and visualizes predicted-vs-true values in a “parity plot.” ([GitHub][1])
 
@@ -49,6 +40,13 @@ Because the README is sparse, here’s a practical path that usually works for S
    This should download QM9 (first run), train, and save `schnet_qm9.pt`.
 3. Test/visualize: open `Testing.ipynb`, load the checkpoint, run inference, and generate the parity plot.
 
+  <img width="490" height="290" alt="download (2)" src="https://github.com/user-attachments/assets/45a03208-64ff-4a0a-a39d-5bc8714f83b6" />
+
+
+<img width="467" height="470" alt="download" src="https://github.com/user-attachments/assets/82de7fea-fab2-4c76-a9a0-5f28ad8a9214" />
+
+<img width="489" height="490" alt="download (1)" src="https://github.com/user-attachments/assets/17585b71-0db2-44a8-96bd-052d36492e77" />
+
 # What it’s good for (and what it’s not yet)
 
 * ✅ **Good for**: a compact, reproducible **baseline** showing how to train a SchNet on QM9 and produce property predictions.
@@ -57,4 +55,3 @@ Because the README is sparse, here’s a practical path that usually works for S
 
 
   
-<img width="400" height="300" alt="download (3)" src="https://github.com/user-attachments/assets/264e20e9-ca69-461b-9a7c-401e32e07185" />
